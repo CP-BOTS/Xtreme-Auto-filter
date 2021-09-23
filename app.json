@@ -1,0 +1,62 @@
+{
+    "name": "Auto Filter Bot V2",
+    "description": "A Filter Bot Which Doesnt Need Manuall Filter Adding",
+    "logo": "https://www.techopedia.com/images/uploads/6e13a6b3-28b6-454a-bef3-92d3d5529007.jpeg",
+    "keywords": [
+        "Auto",
+        "Filter",
+        "Mongo DB"
+    ],
+    "website": "https://github.com/neera-j",
+    "repository": "https://github.com/neera-j/auto-filter-v3-by-cp-botz",
+    "success_url": "https://telegram.dog/cpbotz",
+    "env": {
+        "APP_ID": {
+            "description": "Your APP ID From my.telegram.org",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash From my.telegram.org",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Your Bot Token From @BotFather",
+            "value": ""
+        },
+        "DB_URI": {
+            "description": "Your Mongo DB URL Obtained From mongodb.com",
+            "value": ""
+        },
+        "GP_LINK": {
+            "description": "YOUR GROUP LINK IN WHICH BOT WORKS",
+            "value": ""
+        },
+        "BOT_NAME": {
+            "description": "YOUR BOT'S NAME",
+            "value": ""
+        },
+        "GROUP_NAME": {
+            "description": "YOUR GROUP'S NAME IN WHICH BOT WORKS",
+            "value": ""
+        },
+        "USER_NAME": {
+            "description": "YOUR GROUP'S USER NAME WITH THE '@' IN WHICH BOT WORKS",
+            "value": ""
+        },
+        "USER_SESSION": {
+            "description": "A Pyrogram User Session String. SEE README FILE FOR MORE INFO",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
