@@ -12,7 +12,7 @@ A fully customizable Auto filter bot for Telegram
     <img src="https://img.shields.io/github/forks/neera-j/auto-filter-xtreme?style=social">
 
 <a href="https://github.com/neera-j/auto-filter-xtreme">
-    <img src="https://img.shields.io/github/directory-file-count/CP-BOTS/Xtreme-Auto-filter">
+    <img src="https://img.shields.io/github/repo-size/CP-BOTS/Xtreme-Auto-filter">
 
   </a>
   </a> 
